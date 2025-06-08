@@ -1,4 +1,4 @@
-b<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -484,9 +484,9 @@ b<!DOCTYPE html>
           </ul>
         </div>
         <div class="footer-form-container">
-          <p class="footer-text">Subscribe</p>
+          <p class="footer-text-container">Subscribe</p>
           <form class="footer-form">
-            <label aria-label="footer email">
+            <label aria-label="footer-email">
               <input
                 type="email"
                 name="footer-email"
@@ -560,29 +560,29 @@ b<!DOCTYPE html>
             </div>
           </div>
           <div class="modal-text-field">
-            <label for="user-text" class="modal-input-text">Comment</label>
+            <label for="user-comment" class="modal-input-text">Comment</label>
             <textarea
               class="modal-textarea"
-              name="user-text"
-              id="user-text"
+              name="user-comment"
+              id="user-comment"
               placeholder="Text input"
             ></textarea>
           </div>
-          <div class="modal-field">
+          <div class="modal-field-check">
             <input
               type="checkbox"
-              name="policy"
-              id="policy"
+              name="user-privacy"
+              id="user-privacy"
               class="modal-check visually-hidden"
               value="true"
-            /><label for="policy" class="check-text">
+            /><label for="user-privacy" class="check-text">
               <span class="check-element">
                 <svg class="check-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-check"></use>
                 </svg>
               </span>
               I accept the terms and conditions of the
-              <a href="">Privacy Policy</a>
+              <a class="modal-field-check-policy" href="">Privacy Policy</a>
             </label>
           </div>
           <button class="modal-btn" type="submit">Send</button>
