@@ -532,9 +532,9 @@ img {
 }
 
 .footer-form-container {
-  margin: 0 auto;
-  display: inline-flex;
+  margin-left: 80px;
 }
+
 .footer-form {
   display: flex;
   align-items: center;
@@ -723,6 +723,9 @@ img {
 .modal-input-cover {
   position: relative;
 }
+.modal-text-field {
+  margin-bottom: 16px;
+}
 
 .modal-textarea {
   width: 100%;
@@ -785,7 +788,6 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
   display: inline-flex;
   margin-right: 8px;
-  display: flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
